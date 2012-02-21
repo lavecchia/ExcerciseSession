@@ -39,7 +39,7 @@ def replaceN2M(filename):
 	if status == True:
 		file=open(filename, 'w')
 		for line in filecontent:
-			file.write(line+"\n")
+			file.write(line)
 		file.close()				
 			 
 
